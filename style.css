@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+body {
+    width: 960px;
+    background-color: #777;
+
+
+}
+
+.topshelf {
+    width: 960px;
+    height: 100px;
+    background-color: #ebebeb;
+    text-align: center;
+
+}
+section {
+    width: 495px;
+    height: 245px;
+    background-color: #ebebeb;
+    float: left;
+
+}
+
+article {
+    background-color: #777;
+    width: 445px;
+    height: 155px;
+
+}
+
+#big {
+    background-color: #ebebeb;
+    height: 25px;
+    width: 395px;
+
+
+
+
+}
+
+#little {
+    background-color: #ebebeb;
+    height: 25px;
+    width: 395px;
+
+}
+.clear::after {
+    clear: both;
+    display: table;
+    content: "";
+
+
+}
+#aside {
+    float: right;
+    width: 200px;
+
+    
+
+}
+footer {
+    background-color: #ebebeb;
+    text-align: center;
+    height: 100px;
+}
+
